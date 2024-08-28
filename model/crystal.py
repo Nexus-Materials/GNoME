@@ -26,7 +26,7 @@ import jraph
 from ml_collections import ConfigDict
 import numpy as onp
 
-from . import gnn
+import gnn
 
 
 Array = jnp.ndarray

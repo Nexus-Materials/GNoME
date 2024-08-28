@@ -28,9 +28,9 @@ from jax_md import util
 import jraph
 from ml_collections import ConfigDict
 
-from . import util as nn_util
-from .e3nn_layer import FullyConnectedTensorProductE3nn
-from .e3nn_layer import Linear
+import util as nn_util
+from e3nn_layer import FullyConnectedTensorProductE3nn
+from e3nn_layer import Linear
 
 
 # Types

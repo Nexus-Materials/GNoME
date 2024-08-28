@@ -30,7 +30,7 @@ import jraph
 from ml_collections import ConfigDict
 import optax
 
-from . import nequip
+import nequip
 
 
 f32 = jnp.float32
